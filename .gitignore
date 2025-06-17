@@ -1,0 +1,11 @@
+App1/bin/
+App1/obj/
+TestProject1/bin/
+TestProject1/obj/
+TestProject1/TestResults
+TestProject2/bin/
+TestProject2/obj/
+TestProject2/TestResults
+.vs/
+
+App1/App1.csproj.user
