@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <UseVSTest>true</UseVSTest>
-    <Platforms>AnyCPU;x64</Platforms>
+    <Platforms>x64</Platforms>
     <!--★以下を付けると解決-->
     <!--https://learn.microsoft.com/en-us/answers/questions/1295288/how-do-i-build-a-net-winui-3-app-without-visualstu-->
     <EnableMsixTooling>true</EnableMsixTooling>
