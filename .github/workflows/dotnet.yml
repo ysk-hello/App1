@@ -23,7 +23,8 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: msbuild App1.csproj /p:Configuration=Release /p:PlatformTarget=x64 /p:RuntimeIdentifier=win-x64 /p:EnableWindowsTargeting=true
+      run: dotnet build App1.sln -c Release -r win-x64 -p:EnableWindowsTargeting=true
+      #run: msbuild App1.csproj /p:Configuration=Release /p:PlatformTarget=x64 /p:RuntimeIdentifier=win-x64 /p:EnableWindowsTargeting=true
       #run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
