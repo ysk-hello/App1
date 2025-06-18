@@ -27,4 +27,4 @@ jobs:
       #run: msbuild App1.csproj /p:Configuration=Release /p:PlatformTarget=x64 /p:RuntimeIdentifier=win-x64 /p:EnableWindowsTargeting=true
       #run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test App1.sln --configuration Release --verbosity normal
